@@ -31,6 +31,9 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib-jdk8", kotlin_version))
+    testCompile("junit", "junit", "4.12")
+    compile("io.reactivex.rxjava2:rxjava:2.1.17")
+    compile("io.reactivex.rxjava2:rxkotlin:2.2.0")
 }
 
 configure<JavaPluginConvention> {
